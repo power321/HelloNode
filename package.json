@@ -1,0 +1,26 @@
+{
+  "name": "hellonode",
+  "version": "1.0.0",
+  "description": "node.js学习",
+  "main": "index.js",
+  "dependencies": {
+    "@tencent/aop": "^6.56.0",
+    "debug": "^4.1.0",
+    "lodash": "^4.17.11",
+    "moment": "^2.22.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/power321/HelloNode.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/power321/HelloNode/issues"
+  },
+  "homepage": "https://github.com/power321/HelloNode#readme"
+}

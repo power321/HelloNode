@@ -19,8 +19,10 @@ eventEmitter.on('data_received', function(){
    console.log('数据接收成功。');
 });
 
+console.log(eventEmitter.listenerCount('connection'));
+
 // 触发 connection 事件 
 eventEmitter.emit('connection');
 
-console.log(eventEmitter.listenerCount('connection'));
+
 console.log("程序执行完毕。");
